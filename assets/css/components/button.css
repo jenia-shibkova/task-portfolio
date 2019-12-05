@@ -1,0 +1,11 @@
+.button {
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "FuturaDemiC", "Helvetica", sans-serif;
+  box-sizing: border-box;
+}

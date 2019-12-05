@@ -1,0 +1,28 @@
+@import "vendors/normalize.css";
+@import "fonts.css";
+
+@import "layout/accordion.css";
+@import "layout/panel.css";
+@import "layout/panel.css";
+@import "layout/education.css";
+@import "layout/slider.css";
+@import "layout/carousel.css";
+@import "layout/project.css";
+@import "layout/header.css";
+
+@import "components/button.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+.page-wrapper {
+  width: 1020px;
+  margin: 0 auto;
+}
+

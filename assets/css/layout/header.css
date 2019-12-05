@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__icon {
+  background: url("../img/icon-person.jpg");
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 4px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}

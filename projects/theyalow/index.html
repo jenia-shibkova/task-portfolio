@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Yalow</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="page-header container">
+      <picture>
+        <source srcset="./assets/images/logo-mobile.png" media="(max-width: 640px)">
+        <img class="page-header__logo" src="./assets/images/logo.png" alt="logo">
+      </picture>
+      <h1 class="page-header__title">TheYalow</h1>
+      <nav class="page-header__navigation">
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__item-link menu__item-link--person" href="#">About us</a></li>
+          <li class="menu__item"><a class="menu__item-link menu__item-link--tool" href="#">Services</a></li>
+          <li class="menu__item"><a class="menu__item-link menu__item-link--envelope" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="slider container">
+      <button class="button slider__button slider__button--prev"></button>
+      <button class="button slider__button slider__button--next"></button>
+      <div class="slider__inner-wrapper">
+        <div class="slider__item">
+          <video class="slider__video" src="#" controls poster="./assets/images/slider-back.jpeg">Video not supported</video>
+          <button class="button button--play slider__button--play"></button>
+        </div>
+        <h2 class="slider__title"><span class="slider__title--yellow">The Cool</span> The Minimal</h2>
+      </div>
+    </section>
+  </div>
+
+  <section class="advantages">
+    <div class="advantages__wrapper">
+      <h2 class="visually-hidden">Advantages</h2>
+      <ul class="advantages__list container">
+        <li class="advantages__item advantages__item--design">Better design</li>
+        <li class="advantages__item advantages__item--customise">Customise</li>
+        <li class="advantages__item advantages__item--free">Its Free</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="events">
+    <div class="events__wrapper">
+        <h2 class="events__title container">Lorem ipsum dolor sit amet</h2>
+        <div class="events__item-wrapper container">
+
+          <article class="events__item">
+            <div class="events__item-inner-wrapper">
+              <p class="events__item-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+              <button class="button button--plus"></button>
+            </div>
+            <div class="events__video-wrapper">
+              <video class="events__video" src="#" width="315" height="233" poster="./assets/images/video-image-2.jpg">Video not supported</video>
+              <button class="button button--play events__button--play"></button>
+            </div>
+          </article>
+
+          <div class="events__share-block">
+            <span class="events__small">22</span>
+            <button class="button button--plus"></button>
+            <div class="message-form-wrapper">
+              <span class="message__item">Daily Mobile UI Design Inspiration #1
+                  via @cssauthor</span>
+              <span class="message__item message__item--ex-prev">Daily Mobile UI Design Inspiration #1
+                      via @cssauthor</span>
+              <span class="message__item message__item--prev">Daily Mobile UI Design Inspiration #1
+                          via @cssauthor</span>
+              <form class="message-form">
+                <input type="text" class="message-form__text-input" name="msg" required></input>
+                <button type="submit" class="button button--tweet">Tweet</button>
+              <form>
+            </div>
+          </div>
+
+        </div>
+        <div class="event__input-wrapper">
+            <input class="events__pagination" type="range">
+        </div>
+    </div>
+  </section>
+
+  <section class="devices">
+    <div class="devices__wrapper container">
+      <h2 class="devices__title">Lorem ipsum dolor sit amet</h2>
+      <div class="devices__inner-wrapper">
+        <img src="assets/images/bg-grey-image.png" width="560" height="298" alt="device images">
+        <ul class="devices__list">
+          <li class="devices__item">Sed ut perspiciatis unde omnis</li>
+          <li class="devices__item">Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+          <li class="devices__item">Sed ut perspiciatis unde omnis copy</li>
+          <li class="devices__item">Lorem ipsum dolor sit amet, consectetur adipisicing copy</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="page-footer__wrapper container">
+      <picture>
+        <source srcset="./assets/images/logo-footer-mobile.png" media="(max-width: 640px)">
+        <img class="page-footer__logo" src="assets/images/logo-footer.png" alt="logo">
+      </picture>
+      <h2 class="page-footer__title">TheYalow</h2>
+    </div>
+  </footer>
+
+</body>
+</html>
